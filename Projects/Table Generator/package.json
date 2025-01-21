@@ -1,0 +1,16 @@
+{
+  "name": "loops-ex-5.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "whileloops.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "random-integer": "^2.0.0",
+    "random-number": "^0.0.9"
+  }
+}

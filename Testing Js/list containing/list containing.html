@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <body>
+        <script>
+
+            let countries = ["USA", "dubai", "Pakistan", "Turkey"]
+            let languages = ["urdu", "english", "french", "persian"]
+            let rivers = ["amazon", "chenab", "nile", "parana"]
+            let mountain = ["k2", "mount everest", "denali", "mount elbert"]
+
+            console.log (countries, languages, rivers, mountain)
+
+            includes = countries.includes ("USA");
+            console.log(includes)
+
+            includes = languages.includes("french", 3)
+            console.log(includes)
+
+            includes = rivers.includes("amazon", 0)
+            console.log(includes)
+
+            includes = mountain.includes("k2", "mount elbert")
+            console.log(includes)
+
+        </script>
+    </body>
+</head>
+</html>
